@@ -29,3 +29,14 @@ body {
         width: 98dvw;
     }
 }
+@media (max-height:700px) {
+    .is-card {
+        box-shadow: 5px 5px 0 5px black !important;
+        transform: translateY(-7%);
+    }
+    .is-round {
+        border-radius: 2.5% !important;
+        width: 98dvw;
+        padding: -5%;
+    }
+}
