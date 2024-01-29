@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100dvw;
+    height: 100dvh;
+    overflow: hidden;
+    background-color: #F6D050;
+}
+.is-yellowed {
+    background-color: #F6D050 !important;
+}
+.is-round {
+    border-radius: 5% !important;
+}
+.is-hover:hover {
+    cursor: default;
+    color: #F6D050;
+}
+.is-card {
+    border: 2px solid black;
+    box-shadow: 15px 15px 0 5px black !important;
+}
+@media (max-width:500px) {
+    .is-card {
+        box-shadow: 5px 5px 0 5px black !important;
+    }
+    .is-round {
+        border-radius: 2.5% !important;
+        width: 98dvw;
+    }
+}
